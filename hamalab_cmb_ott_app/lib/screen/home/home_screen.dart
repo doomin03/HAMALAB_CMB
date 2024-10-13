@@ -72,12 +72,77 @@ class Home extends StatelessWidget {
                         SizedBox(height: 50),
                         VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
                         VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        GameList(title: "레인보우 게임",),
+                        People(title: "동네사람들",)
                       ],
                     ),
-                    Center(child: Text('LIVE 컨텐츠')),
-                    Center(child: Text('VOD 컨텐츠')),
-                    Center(child: Text('클래스 컨텐츠')),
-                    Center(child: Text('클리닉 컨텐츠')),
+                    Live(),
+                    ListView(
+                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      children: [
+                        Main_slider(),
+                        Container(
+                          decoration: BoxDecoration(color: Colors.grey),
+                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          child: SizedBox(
+                            width: 400,
+                            height: 71,
+                            child: Center(
+                              child: Text("광고 배너"),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 50),
+                        VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        GameList(title: "레인보우 게임",),
+                        People(title: "동네사람들",)
+                      ],
+                    ),
+                    ListView(
+                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      children: [
+                        Main_slider(),
+                        Container(
+                          decoration: BoxDecoration(color: Colors.grey),
+                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          child: SizedBox(
+                            width: 400,
+                            height: 71,
+                            child: Center(
+                              child: Text("광고 배너"),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 50),
+                        VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        GameList(title: "레인보우 게임",),
+                        People(title: "동네사람들",)
+                      ],
+                    ),
+                    ListView(
+                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      children: [
+                        Main_slider(),
+                        Container(
+                          decoration: BoxDecoration(color: Colors.grey),
+                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          child: SizedBox(
+                            width: 400,
+                            height: 71,
+                            child: Center(
+                              child: Text("광고 배너"),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 50),
+                        VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        VideoList(title: "{이름} 님이 시청 중인 콘텐츠"),
+                        GameList(title: "레인보우 게임",),
+                        People(title: "동네사람들",)
+                      ],
+                    ),
                   ],
                 ),
               ),

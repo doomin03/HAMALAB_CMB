@@ -73,6 +73,12 @@ flutter:
     - images/poster/poster_02.png
     - images/poster/poster_03.png
     - images/poster/poster_04.png
+    - images/poster/poster_05.png
+    - images/poster/poster_06.png
+    - images/logo/game0.png
+    - images/logo/game1.png
+    - images/logo/game2.png
+    - images/logo/game3.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
