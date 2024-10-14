@@ -66,12 +66,12 @@ class _Main_slider extends State<Main_slider> {
 
   Widget buildImage(String url, double screenWidth) {
     return Container(
-      width: screenWidth, // 전달받은 screenWidth 사용
+      width: screenWidth,
       margin: EdgeInsets.all(8.0),
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: NetworkImage(url),
-          fit: BoxFit.cover, // 이미지 비율 유지하며 화면 채우기
+          image: AssetImage(url),
+          fit: BoxFit.cover,
         ),
       ),
     );
@@ -177,7 +177,6 @@ class _VideoListState extends State<VideoList> {
             right: 5,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.8),
                 borderRadius: BorderRadius.vertical(bottom: Radius.circular(7)),
               ),
               child: Text(
@@ -297,7 +296,6 @@ class _GameListState  extends State<GameList> {
             right: 5,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.8),
                 borderRadius: BorderRadius.vertical(bottom: Radius.circular(7)),
               ),
               child: Text(
@@ -412,7 +410,6 @@ class _PeopleState extends State<People> {
             right: 5,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.8),
                 borderRadius: const BorderRadius.vertical(
                   bottom: Radius.circular(7),
                 ),

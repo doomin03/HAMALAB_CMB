@@ -55,14 +55,15 @@ class Home extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     ListView(
-                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      padding: EdgeInsets.zero,
                       children: [
                         Main_slider(),
                         Container(
-                          decoration: BoxDecoration(color: Colors.grey),
-                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          decoration: BoxDecoration(
+                            color: Colors.grey
+                          ),
+                          margin: EdgeInsets.fromLTRB(24, 10, 24, 0),
                           child: SizedBox(
-                            width: 400,
                             height: 71,
                             child: Center(
                               child: Text("광고 배너"),
@@ -78,14 +79,15 @@ class Home extends StatelessWidget {
                     ),
                     Live(),
                     ListView(
-                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      padding: EdgeInsets.zero,
                       children: [
                         Main_slider(),
                         Container(
-                          decoration: BoxDecoration(color: Colors.grey),
-                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          decoration: BoxDecoration(
+                              color: Colors.grey
+                          ),
+                          margin: EdgeInsets.fromLTRB(24, 10, 24, 0),
                           child: SizedBox(
-                            width: 400,
                             height: 71,
                             child: Center(
                               child: Text("광고 배너"),
@@ -100,14 +102,15 @@ class Home extends StatelessWidget {
                       ],
                     ),
                     ListView(
-                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      padding: EdgeInsets.zero,
                       children: [
                         Main_slider(),
                         Container(
-                          decoration: BoxDecoration(color: Colors.grey),
-                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          decoration: BoxDecoration(
+                              color: Colors.grey
+                          ),
+                          margin: EdgeInsets.fromLTRB(24, 10, 24, 0),
                           child: SizedBox(
-                            width: 400,
                             height: 71,
                             child: Center(
                               child: Text("광고 배너"),
@@ -122,14 +125,15 @@ class Home extends StatelessWidget {
                       ],
                     ),
                     ListView(
-                      padding: EdgeInsets.zero, // 기본 패딩 제거
+                      padding: EdgeInsets.zero,
                       children: [
                         Main_slider(),
                         Container(
-                          decoration: BoxDecoration(color: Colors.grey),
-                          margin: EdgeInsets.fromLTRB(24, 10, 0, 0),
+                          decoration: BoxDecoration(
+                              color: Colors.grey
+                          ),
+                          margin: EdgeInsets.fromLTRB(24, 10, 24, 0),
                           child: SizedBox(
-                            width: 400,
                             height: 71,
                             child: Center(
                               child: Text("광고 배너"),
